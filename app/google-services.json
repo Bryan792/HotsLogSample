@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "56107434708",
+    "project_id": "hotslogsample"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56107434708:android:14c26f0bc5abe6e6",
+        "android_client_info": {
+          "package_name": "com.bryanching.hotslogsample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGqaLIx9A8I6sh7R7DaK1vuEiI1ynwMX4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
