@@ -181,5 +181,7 @@ public class HotsLogPresenter {
         hotsLogIds.add(Long.valueOf("2230236"));
         hotsLogIds.add(Long.valueOf("5238907"));
         bNetIds.add("Bryan792_1986");
+        updateOneOff();
+        hotsLogFragment.showToast("Known Users Added");
     }
 }

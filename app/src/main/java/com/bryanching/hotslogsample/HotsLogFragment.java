@@ -17,6 +17,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bryanching.hotslogsample.Presenter.HotsLogPresenter;
 import com.bryanching.hotslogsample.squidb.HotsLogUser;
@@ -140,6 +141,10 @@ public class HotsLogFragment extends Fragment {
     public void swapCursor(SquidCursor<HotsLogUser> cursor) {
         MmrTableAdapter mAdapter = new MmrTableAdapter(cursor);
         mMmrTable.swapAdapter(mAdapter, false);
+    }
+
+    public void showToast(String s) {
+        Toast.makeText(getActivity(), s, Toast.LENGTH_SHORT).show();
     }
 
     public class MmrTableAdapter extends RecyclerView.Adapter<MmrTableAdapter.ViewHolder> {
